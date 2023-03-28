@@ -11,6 +11,7 @@ const Card = () => {
 
   const getNewQuestion = (e) => {
     e.stopPropagation()
+    if (!displayAnswer) return
     const i = Math.floor(Math.random() * questionData.hardQuestions.length)
     setQuestion(questionData.hardQuestions[i])
     setDisplayAnswer(false)

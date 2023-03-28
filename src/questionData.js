@@ -50,6 +50,46 @@ export const questionData = {
       
       document. getElementById ("myText"). className = "anyclass";`,
     },
+    {
+      question:
+        "How can you convert the string of any base to an integer in JavaScript?",
+      answer: `The parseInt() function is used to convert numbers between different bases. parseInt() takes the string to be converted as its first parameter. The second parameter is the base of the given string.`,
+    },
+    {
+      question: "What is the data type of variables in JavaScript?",
+      answer: `All variables in JavaScript are object data types.`,
+    },
+
+    {
+      question:
+        "What is the difference between an alert box and a confirmation box?",
+      answer: `An alert box displays only one button, which is the OK button.
+        But a Confirmation box displays two buttons, namely OK and cancel.`,
+    },
+    {
+      question: "What are escape characters?",
+      answer: `Escape characters (Backslash) is used when working with special characters like single quotes, double quotes, apostrophes, and ampersands. Place backslash before the characters to make it display.`,
+    },
+    {
+      question: "What are Javascript Cookies?",
+      answer: `Cookies are the small test files stored in a computer, and they get created when the user visits the websites to store information that they need. Examples could be User Name details and shopping cart information from previous visits.`,
+    },
+    {
+      question: "What is the pop() method?",
+      answer:
+        "The pop() method takes the last element off of the given array and returns it. The array on which it is called is altered.",
+    },
+    {
+      question:
+        "What is the different between the break and continue statements?",
+      answer:
+        "Break statement exits from the current loop. Continue statement continues with next statement of the loop.",
+    },
+    {
+      question: "What are the two basic groups of data types in Javascript?",
+      answer:
+        "Primitive and Reference. Primitive types are number and Boolean data types. Reference types are more complex types like strings and dates.",
+    },
   ],
   mediumQuestions: [],
   easyQuestions: [],
