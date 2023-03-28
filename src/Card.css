@@ -1,0 +1,78 @@
+.card {
+  text-align: center;
+  width: 300px;
+  height: 500px;
+  border: 2px solid rgb(99, 99, 99);
+  border-radius: 5px;
+  margin: 25px auto;
+  padding: 10px;
+  background: rgb(32, 35, 57);
+  position: relative;
+}
+
+.card-question {
+  color: rgb(220, 220, 220);
+  font-size: 1rem;
+  border-bottom: 2px solid rgb(143, 108, 43);
+}
+
+.card-answer {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+  padding: 25px 0 10px 0;
+}
+
+.card-btns {
+  display: flex;
+
+  gap: 10px;
+  position: absolute;
+  bottom: 5px;
+}
+
+.button-25 {
+  border: 1px solid #2a8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow 0.05s ease-in-out, opacity 0.05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 95px;
+}
+
+.button-25:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset,
+    rgba(0, 0, 0, 0.4) 0 1px 2px;
+  text-decoration: none;
+  transition-duration: 0.15s, 0.15s;
+}
+
+.button-25:active {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
+
+.button-25:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.button-25:disabled:active {
+  pointer-events: none;
+}
+
+.button-25:disabled:hover {
+  box-shadow: none;
+}
