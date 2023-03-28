@@ -29,6 +29,27 @@ export const questionData = {
 
         Undefined variables are those that are declared in the program but have not been given any value. If the program tries to read the value of an undefined variable, an undefined value is returned.`,
     },
+    {
+      question: "Which symbol is used for comments in Javascript?",
+      answer: `// for Single line comments and
+
+      /* Multi
+      
+      Line
+      
+      Comment
+      
+      */`,
+    },
+    {
+      question: "How can the style/class of an element be changed?",
+      answer: `It can be done in the following way:
+
+      document.getElementById("myText"). style. fontSize = "20";
+      or
+      
+      document. getElementById ("myText"). className = "anyclass";`,
+    },
   ],
   mediumQuestions: [],
   easyQuestions: [],
