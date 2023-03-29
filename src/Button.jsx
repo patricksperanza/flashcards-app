@@ -5,7 +5,8 @@ const Button = ({ text, color, onClick }) => {
     <button
       onClick={(e) => onClick(e)}
       style={{ backgroundColor: color }}
-      className="button-25"
+      className="button-22"
+      role="button"
     >
       {text}
     </button>

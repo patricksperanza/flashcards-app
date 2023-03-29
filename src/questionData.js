@@ -90,6 +90,35 @@ export const questionData = {
       answer:
         "Primitive and Reference. Primitive types are number and Boolean data types. Reference types are more complex types like strings and dates.",
     },
+    {
+      question: "Is JavaScript a case-sensitive language?",
+      answer:
+        "Yes, JavaScript is a case sensitive language.  The language keywords, variables, function names, and any other identifiers must always be typed with a consistent capitalization of letters.",
+    },
+    {
+      question: "What is an attribute in HTML?",
+      answer:
+        "Attributes are the properties that can be added to an HTML tag that change the way the tag behaves or displays. Attributes are added after the name of the tag, inside the brackets.",
+    },
+    {
+      question: "What is marquee in HTML?",
+      answer:
+        "Marquee scrolls the image or text up, down, left or right automatically. To apply it, use the <marquee> tab.",
+    },
+    {
+      question: "What is semantics in HTML?",
+      answer:
+        "It is the use of HTML markup to reinforce the semantics or meaning of the content.",
+    },
+    {
+      question: "How do you separate a section of texts in HTML?",
+      answer: "Using the followings tags: <br>, <p>, or <blockquotes>",
+    },
+    {
+      question: "How do you create nested web pages in HTML?",
+      answer:
+        "By using the built-in iframe tag. <iframe src='http://example.com' width='600' height='400'></iframe>",
+    },
   ],
   mediumQuestions: [],
   easyQuestions: [],

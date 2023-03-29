@@ -25,54 +25,45 @@
 
 .card-btns {
   display: flex;
-
-  gap: 10px;
+  /* gap: 10px; */
+  width: 300px;
   position: absolute;
   bottom: 5px;
 }
 
-.button-25 {
-  border: 1px solid #2a8387;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
-  color: #ffffff;
+.button-22 {
+  align-items: center;
+  appearance: button;
+  background-color: #0276ff;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
   cursor: pointer;
-  display: block;
-  font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue",
-    Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  line-height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue", sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
   margin: 0;
-  outline: 0;
-  padding: 11px 15px 12px;
+  padding: 10px 21px;
   text-align: center;
-  transition: box-shadow 0.05s ease-in-out, opacity 0.05s ease-in-out;
+  text-transform: none;
+  transition: color 0.13s ease-in-out, background 0.13s ease-in-out,
+    opacity 0.13s ease-in-out, box-shadow 0.13s ease-in-out;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 95px;
+  width: 300px;
+  justify-content: center;
 }
 
-.button-25:hover {
-  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset,
-    rgba(0, 0, 0, 0.4) 0 1px 2px;
-  text-decoration: none;
-  transition-duration: 0.15s, 0.15s;
+.button-22:active {
+  background-color: #006ae8;
 }
 
-.button-25:active {
-  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
-}
-
-.button-25:disabled {
-  cursor: not-allowed;
-  opacity: 0.6;
-}
-
-.button-25:disabled:active {
-  pointer-events: none;
-}
-
-.button-25:disabled:hover {
-  box-shadow: none;
+.button-22:hover {
+  background-color: #1c84ff;
 }

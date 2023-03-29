@@ -30,9 +30,10 @@ const Card = () => {
         {displayAnswer && <p>{question.answer}</p>}
       </div>
       <div className="card-btns">
-        <Button onClick={getNewQuestion} text="Easy" color="#14CC60" />
-        <Button onClick={getNewQuestion} text="Medium" color="#E2DE84" />
-        <Button onClick={getNewQuestion} text="Hard" color="#D91E36" />
+        <Button onClick={getNewQuestion} text="New Question" />
+        {/* <Button onClick={getNewQuestion} text="Easy" color="#14CC60" /> */}
+        {/* <Button onClick={getNewQuestion} text="Medium" color="#E2DE84" />
+        <Button onClick={getNewQuestion} text="Hard" color="#D91E36" /> */}
       </div>
     </div>
   )
