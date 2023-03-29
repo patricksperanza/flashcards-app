@@ -5,9 +5,12 @@ import Button from "./Button"
 import "./Card.css"
 
 const Card = () => {
-  const [question, setQuestion] = useState(questionData.hardQuestions[0])
+  const [question, setQuestion] = useState({
+    question: "Welcome",
+    answer: "Click button to begin",
+  })
 
-  const [displayAnswer, setDisplayAnswer] = useState(false)
+  const [displayAnswer, setDisplayAnswer] = useState(true)
 
   const getNewQuestion = (e) => {
     e.stopPropagation()
